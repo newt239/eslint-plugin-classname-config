@@ -1,0 +1,22 @@
+{
+  "name": "eslint-plugin-classname-config",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build"
+  },
+  "author": "newt239",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/eslint": "^8.21.1",
+    "@types/node": "^18.14.6",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/experimental-utils": "^5.55.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-local-rules": "^1.3.2",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "^2.8.4"
+  }
+}
