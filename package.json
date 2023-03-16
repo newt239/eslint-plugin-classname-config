@@ -14,7 +14,8 @@
   "license": "MIT",
   "keywords": [
     "eslint",
-    "eslintplugin"
+    "eslintplugin",
+    "tailwind"
   ],
   "homepage": "https://github.com/newt239/eslint-plugin-classname-config#readme",
   "main": "index.js",
