@@ -7,7 +7,7 @@ module.exports = {
     node: true
   },
   parser: "@typescript-eslint/parser",
-  plugins: ["react", "@typescript-eslint", "rulesdir"],
+  plugins: ["@typescript-eslint", "rulesdir"],
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
