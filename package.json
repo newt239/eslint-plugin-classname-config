@@ -1,12 +1,17 @@
 {
   "name": "eslint-plugin-classname-config",
   "version": "1.0.0",
-  "description": "",
+  "description": "Enforce breaking lines between multiple class names in the className prop",
   "scripts": {
     "build": "tsc",
     "prepare": "yarn build"
   },
   "author": "newt239",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newt239/eslint-plugin-classname-config"
+  },
+  "license": "MIT",
   "main": "index.js",
   "devDependencies": {
     "@types/eslint": "^8.21.1",
