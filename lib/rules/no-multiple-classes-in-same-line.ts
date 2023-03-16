@@ -23,7 +23,7 @@ const rule: TSESLint.RuleModule<"no-multiple-classes-in-same-line", []> = {
         const { name, value } = node;
         if (
           name &&
-          name.name === "className" &&
+          (name.name === "className" || name.name === "class") &&
           value &&
           value.type === "Literal" &&
           typeof value.value === "string"
