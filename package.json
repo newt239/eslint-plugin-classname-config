@@ -12,6 +12,11 @@
     "url": "https://github.com/newt239/eslint-plugin-classname-config"
   },
   "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintplugin"
+  ],
+  "homepage": "https://github.com/newt239/eslint-plugin-classname-config#readme",
   "main": "index.js",
   "devDependencies": {
     "eslint": "^8.36.0",
