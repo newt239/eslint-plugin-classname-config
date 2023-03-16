@@ -6,16 +6,17 @@ module.exports = {
   env: {
     node: true
   },
-  parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint", "rulesdir"],
+  plugins: ["rulesdir"],
   extends: [
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
     "prettier"
   ],
   parserOptions: {
-    ecmaVersion: 13,
-    sourceType: "module"
+    "ecmaVersion": 12,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module",
   },
   rules: {
     "rulesdir/no-multiple-classes-in-same-line": "error"
