@@ -1,10 +1,13 @@
+const rulesDirPlugin = require('eslint-plugin-rulesdir');
+rulesDirPlugin.RULES_DIR = 'lib/rules';
+
 module.exports = {
   root: true,
   env: {
     node: true
   },
   parser: "@typescript-eslint/parser",
-  plugins: ["react", "@typescript-eslint"],
+  plugins: ["react", "@typescript-eslint", "rulesdir"],
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
@@ -15,6 +18,6 @@ module.exports = {
     sourceType: "module"
   },
   rules: {
-    "classname-config/no-multiple-classes-in-same-line": "error"
+    "rulesdir/no-multiple-classes-in-same-line": "error"
   },
 }
