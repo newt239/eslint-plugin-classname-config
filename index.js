@@ -1,4 +1,4 @@
-import rule from "./lib/rules/no-multiple-classes-in-same-line";
+const rule = require("./lib/rules/no-multiple-classes-in-same-line");
 
 const plugin = {
   rules: {
